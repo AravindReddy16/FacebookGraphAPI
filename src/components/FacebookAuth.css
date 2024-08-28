@@ -1,0 +1,56 @@
+.Home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page-insights {
+    width: 100%;
+    height: 10%;
+    background-color: #0165E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.facebook-page{
+    width: 100%;
+    height: 85%;
+}
+.login-button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-button>button {
+    width: 25rem;
+    height: 3.5rem;
+    background-color: #0165E1;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.login-button>button>svg {
+    margin-right: 15px;
+}
+.login-button>button:hover {
+    background-color: #1e75de;
+}
+.user-info {
+    width: 100%;
+    height: 100%;
+    background-color: #0165E1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+}
